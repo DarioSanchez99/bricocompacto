@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://DarioSanchez99.github.io/bricocompacto/sitemap.xml
