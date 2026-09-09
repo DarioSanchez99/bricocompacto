@@ -1,2 +1,2 @@
-:HL["/bricocompacto/_next/static/chunks/0.ihrx61k_t14.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"aspiradores","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"ITY1XaXlXRlPNo_7Mq8u9"}
+:HL["/bricocompacto/_next/static/chunks/0ya34x2t33.ah.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"aspiradores","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"WI3mHJDeChquPYoZLNgky"}
