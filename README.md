@@ -1,4 +1,18 @@
-# BricoCompacto
+<div align="center">
+
+# 🔧 BricoCompacto
+
+**Guías y recomendaciones de bricolaje, jardín y organización para pisos pequeños**
+
+[![Live Site](https://img.shields.io/badge/Ver%20web-BricoCompacto-2d6a4f?style=for-the-badge&logo=googlechrome&logoColor=white)](https://dariosanchez99.github.io/bricocompacto/)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
+
+---
 
 Web de afiliados Amazon especializada en herramientas de bricolaje, aspiradores y jardín para pisos pequeños y espacios reducidos.
 
@@ -135,9 +149,3 @@ push a main → GitHub Actions → build → gh-pages branch → GitHub Pages
 
 ---
 
-## Agentes IA utilizados
-
-Este proyecto fue construido con la coordinación de dos agentes IA especializados:
-
-- **RankMaestro** — Estrategia SEO, arquitectura de silos, estructura de artículos, schema.org, criterios de conversión Amazon
-- **MasterReact** — Stack tecnológico, arquitectura Next.js, componentes TypeScript, configuración de deploy
