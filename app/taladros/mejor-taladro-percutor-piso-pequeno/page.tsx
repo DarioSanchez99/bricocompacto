@@ -24,7 +24,7 @@ const products = [
     price: "~89 €",
     pros: ["Solo 1,1 kg", "2 baterías incluidas", "Percusión compacta real", "Maletín de transporte"],
     cons: ["Batería 18V (autonomía justa en trabajo intenso)", "No sirve para hormigón armado"],
-    amazonUrl: "https://www.amazon.es/s?k=Bosch+PSB+1800+LI-2&tag=TU_TAG_AQUI",
+    amazonUrl: "https://www.amazon.es/s?k=Bosch+PSB+1800+LI-2&tag=bricocompacto-21",
     badge: "⭐ Mejor elección",
   },
   {
@@ -34,7 +34,7 @@ const products = [
     price: "~120 €",
     pros: ["Cabeza corta (cabe en rincones)", "Motor brushless (más duradero)", "Buena ergonomía"],
     cons: ["Precio algo más alto", "Batería 10,8V — solo para trabajos ligeros"],
-    amazonUrl: "https://www.amazon.es/s?k=Makita+HP331DSAE1&tag=TU_TAG_AQUI",
+    amazonUrl: "https://www.amazon.es/s?k=Makita+HP331DSAE1&tag=bricocompacto-21",
     badge: "Mejor calidad",
   },
   {
@@ -44,7 +44,7 @@ const products = [
     price: "~55 €",
     pros: ["Precio muy bajo", "Ligero (1,2 kg)", "Perfecto para uso ocasional"],
     cons: ["Una sola batería", "Plástico menos robusto", "No recomendado para uso frecuente"],
-    amazonUrl: "https://www.amazon.es/s?k=Black+Decker+BCD003C1K&tag=TU_TAG_AQUI",
+    amazonUrl: "https://www.amazon.es/s?k=Black+Decker+BCD003C1K&tag=bricocompacto-21",
     badge: "Mejor precio",
   },
 ];
@@ -161,7 +161,7 @@ export default function ArticlePage() {
                   <p className="text-xs font-bold text-green-700 mb-1">⭐ MEJOR ELECCIÓN</p>
                   <p className="font-bold text-gray-900">Bosch PSB 1800 LI-2</p>
                   <p className="text-sm text-gray-600 mt-1">El equilibrio perfecto entre peso, potencia y precio para uso doméstico.</p>
-                  <a href="https://www.amazon.es/s?k=Bosch+PSB+1800+LI-2&tag=TU_TAG_AQUI" className="amazon-btn mt-3 text-sm w-full text-center block" target="_blank" rel="nofollow noopener sponsored">
+                  <a href="https://www.amazon.es/s?k=Bosch+PSB+1800+LI-2&tag=bricocompacto-21" className="amazon-btn mt-3 text-sm w-full text-center block" target="_blank" rel="nofollow noopener sponsored">
                     Ver precio en Amazon
                   </a>
                 </div>
@@ -169,7 +169,7 @@ export default function ArticlePage() {
                   <p className="text-xs font-bold text-blue-700 mb-1">🏆 MEJOR CALIDAD</p>
                   <p className="font-bold text-gray-900">Makita HP331DSAE1</p>
                   <p className="text-sm text-gray-600 mt-1">Motor brushless más duradero. Para quien lo usa frecuentemente.</p>
-                  <a href="https://www.amazon.es/s?k=Makita+HP331DSAE1&tag=TU_TAG_AQUI" className="amazon-btn mt-3 text-sm w-full text-center block" target="_blank" rel="nofollow noopener sponsored">
+                  <a href="https://www.amazon.es/s?k=Makita+HP331DSAE1&tag=bricocompacto-21" className="amazon-btn mt-3 text-sm w-full text-center block" target="_blank" rel="nofollow noopener sponsored">
                     Ver precio en Amazon
                   </a>
                 </div>
@@ -177,7 +177,7 @@ export default function ArticlePage() {
                   <p className="text-xs font-bold text-orange-700 mb-1">💰 MEJOR PRECIO</p>
                   <p className="font-bold text-gray-900">Black+Decker BCD003C1K</p>
                   <p className="text-sm text-gray-600 mt-1">Para uso muy ocasional. No lo uses más de 2-3 veces al mes.</p>
-                  <a href="https://www.amazon.es/s?k=Black+Decker+BCD003C1K&tag=TU_TAG_AQUI" className="amazon-btn mt-3 text-sm w-full text-center block" target="_blank" rel="nofollow noopener sponsored">
+                  <a href="https://www.amazon.es/s?k=Black+Decker+BCD003C1K&tag=bricocompacto-21" className="amazon-btn mt-3 text-sm w-full text-center block" target="_blank" rel="nofollow noopener sponsored">
                     Ver precio en Amazon
                   </a>
                 </div>
@@ -335,8 +335,8 @@ export default function ArticlePage() {
               </div>
             </section>
 
-            {/* Related articles */}
-            <section className="border-t border-gray-200 pt-8">
+            {/* Related articles — same silo */}
+            <section className="border-t border-gray-200 pt-8 mb-8">
               <h2 className="text-lg font-bold text-gray-900 mb-4">También te puede interesar</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Link href="/taladros/mejor-atornillador-bateria-principiantes/" className="p-4 bg-white border border-gray-200 rounded-xl hover:border-blue-400 transition-colors group">
@@ -347,6 +347,34 @@ export default function ArticlePage() {
                 <Link href="/taladros/guia-brocas-superficies/" className="p-4 bg-white border border-gray-200 rounded-xl hover:border-blue-400 transition-colors group">
                   <p className="font-semibold text-gray-900 group-hover:text-blue-700 text-sm">
                     Guía de brocas: qué broca usar en cada superficie
+                  </p>
+                </Link>
+              </div>
+            </section>
+
+            {/* Artículos relacionados — cross-silo */}
+            <section className="border-t border-gray-200 pt-8">
+              <h2 className="text-lg font-bold text-gray-900 mb-4">Artículos relacionados</h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Una vez instaladas las estanterías, igual te interesa organizar bien lo que va dentro o tener el piso impecable.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <Link
+                  href="/aspiradores/"
+                  className="p-4 bg-purple-50 border border-purple-200 rounded-xl hover:border-purple-400 transition-colors group"
+                >
+                  <span className="text-xs font-bold text-purple-700 mb-1 block">Aspiradores</span>
+                  <p className="font-semibold text-gray-900 group-hover:text-purple-700 text-sm">
+                    Mejores aspiradores sin cable para piso pequeño 2025 — Dyson, Rowenta y más
+                  </p>
+                </Link>
+                <Link
+                  href="/organizacion/"
+                  className="p-4 bg-orange-50 border border-orange-200 rounded-xl hover:border-orange-400 transition-colors group"
+                >
+                  <span className="text-xs font-bold text-orange-700 mb-1 block">Organización</span>
+                  <p className="font-semibold text-gray-900 group-hover:text-orange-700 text-sm">
+                    Soluciones de almacenaje y organización para sacar partido a cada metro cuadrado
                   </p>
                 </Link>
               </div>

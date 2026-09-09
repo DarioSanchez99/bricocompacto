@@ -99,7 +99,7 @@ export default function HomePage() {
             Análisis honestos y guías de compra de taladros, aspiradores y jardín.
             Sin publicidad engañosa. Solo lo que funciona de verdad.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8">
             <Link
               href="/guias/"
               className="bg-yellow-400 text-gray-900 font-bold px-6 py-3 rounded-lg hover:bg-yellow-300 transition-colors"
@@ -111,6 +111,33 @@ export default function HomePage() {
               className="bg-white/20 text-white font-semibold px-6 py-3 rounded-lg hover:bg-white/30 transition-colors border border-white/40"
             >
               Explorar taladros
+            </Link>
+          </div>
+          {/* Category quick links */}
+          <div className="flex flex-wrap gap-2 justify-center text-sm">
+            <Link
+              href="/taladros/"
+              className="bg-white/10 hover:bg-white/20 text-white px-4 py-1.5 rounded-full border border-white/30 transition-colors"
+            >
+              🔩 Taladros y atornilladores compactos
+            </Link>
+            <Link
+              href="/aspiradores/"
+              className="bg-white/10 hover:bg-white/20 text-white px-4 py-1.5 rounded-full border border-white/30 transition-colors"
+            >
+              🌀 Aspiradores sin cable
+            </Link>
+            <Link
+              href="/jardin/"
+              className="bg-white/10 hover:bg-white/20 text-white px-4 py-1.5 rounded-full border border-white/30 transition-colors"
+            >
+              🌿 Jardín en terraza y balcón
+            </Link>
+            <Link
+              href="/organizacion/"
+              className="bg-white/10 hover:bg-white/20 text-white px-4 py-1.5 rounded-full border border-white/30 transition-colors"
+            >
+              📦 Organización y almacenaje
             </Link>
           </div>
         </div>
